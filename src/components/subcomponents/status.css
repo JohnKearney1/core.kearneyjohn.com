@@ -1,0 +1,12 @@
+.onlineDiv {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.urlText {
+    color: white;
+    margin-top: 1%;
+}

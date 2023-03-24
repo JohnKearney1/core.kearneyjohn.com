@@ -1,0 +1,88 @@
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+
+/* Add this */
+.App > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40px;
+  width: 80%;
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.textbox:focus {
+  outline: none;
+}
+
+.textArea {
+  width: 90%;
+  height: 100%;
+  resize: vertical;
+  background-color: #222;
+  border-radius: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  resize: none;
+  color: white;
+  text-align: left;
+  scroll-behavior: smooth;
+  border: none;
+  user-select: all;
+}
+
+/* Style the scrollbar */
+.textArea::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+.textArea::-webkit-scrollbar-thumb {
+  background-color: #555; /* Set the color of the scrollbar thumb */
+  border-radius: 5px; /* Round the corners of the scrollbar thumb */
+}
+
+.textArea::-webkit-scrollbar-track {
+  background-color: #222; /* Set the color of the scrollbar track */
+}
+
+.textArea::-webkit-scrollbar-button {
+  display: none; /* Hide the scrollbar buttons */
+}
+
+.textArea:focus {
+  outline: none;
+}
+
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  flex-direction: column;
+}
+
+.spacer {
+  display: flex;
+  height: 30px;
+}
